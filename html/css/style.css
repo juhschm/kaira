@@ -1,0 +1,891 @@
+* {
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: #2f2f2f;
+
+    background: #eff2f1;
+
+    font-size: 14px;
+
+}
+
+p {
+
+    color: #6d7774;
+
+    line-height: 1.7;
+
+    font-size: 12px;
+
+}
+
+h1, h2, h3, p {
+
+    margin-top: 0;
+
+}
+
+h2 {
+
+    font-size: 25px;
+
+    font-weight: 500;
+
+    line-height: 1.2;
+
+}
+
+h3 {
+
+    font-size: 13px;
+
+    margin: 8px 0 4px;
+
+}
+
+.wrap {
+
+    width: min(1120px, 82%);
+
+    margin: auto;
+
+}
+
+.hero {
+
+    background: #3b5d50;
+
+    color: #fff;
+
+}
+
+.nav {
+
+    height: 78px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+}
+
+.logo {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.nav ul {
+
+    display: flex;
+
+    gap: 30px;
+
+    list-style: none;
+
+    font-size: 12px;
+
+    color: #c6d2cc;
+
+}
+
+.nav li {
+
+    padding: 10px 0;
+
+}
+
+.nav .active {
+
+    color: white;
+
+    border-bottom: 4px solid #f9bf29;
+
+}
+
+.icons {
+
+    font-size: 18px;
+
+}
+
+.menu {
+
+    display: none;
+
+}
+
+.hero-content {
+
+    min-height: 300px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 20px 0 45px;
+
+}
+
+.hero-content > div {
+
+    max-width: 380px;
+
+}
+
+.hero h1 {
+
+    font-size: 42px;
+
+    line-height: 1.08;
+
+    margin-bottom: 18px;
+
+}
+
+.hero p {
+
+    color: #c6d2cc;
+
+    max-width: 340px;
+
+}
+
+.hero-content img {
+
+    width: 53%;
+
+    height: 270px;
+
+    object-fit: contain;
+
+}
+
+.btn {
+
+    display: inline-block;
+
+    border-radius: 30px;
+
+    padding: 13px 25px;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    margin-top: 5px;
+
+}
+
+.yellow {
+
+    background: #f9bf29;
+
+    color: #222;
+
+}
+
+.outline {
+
+    border: 1px solid #91a79c;
+
+    color: #fff;
+
+}
+
+.dark {
+
+    background: #222;
+
+    color: white;
+
+}
+
+.products {
+
+    display: grid;
+
+    grid-template-columns: 1.05fr repeat(3, 1fr);
+
+    gap: 28px;
+
+    padding: 85px 0;
+
+}
+
+.intro p {
+
+    max-width: 230px;
+
+}
+
+.products article {
+
+    text-align: center;
+
+    align-self: center;
+
+}
+
+.products article img {
+
+    width: 100%;
+
+    height: 205px;
+
+    object-fit: contain;
+
+}
+
+.products article b {
+
+    font-size: 12px;
+
+}
+
+.why {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 65px;
+
+    align-items: center;
+
+    padding: 65px 0;
+
+}
+
+.features {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+
+    margin-top: 30px;
+
+}
+
+.features span {
+
+    font-size: 24px;
+
+}
+
+.features h3 {
+
+    font-weight: 500;
+
+}
+
+.features p {
+
+    margin-bottom: 0;
+
+}
+
+.why-image {
+
+    width: 100%;
+
+    height: 440px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+}
+
+.design {
+
+    display: grid;
+
+    grid-template-columns: 1.1fr 1fr;
+
+    gap: 70px;
+
+    align-items: center;
+
+    padding: 85px 0;
+
+}
+
+.collage {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 15px;
+
+}
+
+.collage img {
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+
+}
+
+.collage .large {
+
+    grid-row: span 2;
+
+    height: 455px;
+
+}
+
+.design ul {
+
+    padding-left: 18px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 14px;
+
+    color: #68716e;
+
+    font-size: 12px;
+
+}
+
+.mini-products {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 30px;
+
+    padding: 30px 0 80px;
+
+}
+
+.mini-products article {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+}
+
+.mini-products img {
+
+    width: 95px;
+
+    height: 100px;
+
+    object-fit: contain;
+
+}
+
+.mini-products p {
+
+    margin-bottom: 4px;
+
+}
+
+.mini-products a {
+
+    font-size: 12px;
+
+    color: #222;
+
+}
+
+.testimonial {
+
+    text-align: center;
+
+    padding: 45px 15%;
+
+}
+
+.testimonial h2 {
+
+    font-size: 24px;
+
+}
+
+.quote {
+
+    max-width: 620px;
+
+    margin: 25px auto;
+
+    font-size: 13px;
+
+}
+
+.avatar {
+
+    background: #d7b6a7;
+
+    width: 52px;
+
+    height: 52px;
+
+    border-radius: 50%;
+
+    display: grid;
+
+    place-items: center;
+
+    margin: 15px auto 8px;
+
+    font-size: 22px;
+
+}
+
+.testimonial b,
+
+.testimonial small {
+
+    display: block;
+
+    font-size: 11px;
+
+}
+
+.testimonial small {
+
+    color: #89918e;
+
+    margin-top: 5px;
+
+}
+
+.blog {
+
+    padding: 70px 0 110px;
+
+}
+
+.section-heading {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.section-heading a {
+
+    font-size: 12px;
+
+    text-decoration: underline;
+
+}
+
+.posts {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+}
+
+.posts img {
+
+    width: 100%;
+
+    height: 210px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+
+}
+
+.posts h3 {
+
+    font-size: 13px;
+
+    margin: 12px 0 5px;
+
+}
+
+.posts small {
+
+    font-size: 11px;
+
+    color: #747d79;
+
+}
+
+footer {
+
+    background: white;
+
+    padding: 45px 0 20px;
+
+}
+
+.newsletter {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-bottom: 35px;
+
+}
+
+.newsletter h2 {
+
+    font-size: 15px;
+
+    color: #3b5d50;
+
+}
+
+.newsletter input {
+
+    padding: 12px;
+
+    border: 1px solid #d4d9d7;
+
+    border-radius: 6px;
+
+    margin-right: 8px;
+
+    width: 190px;
+
+}
+
+.newsletter button {
+
+    background: #3b5d50;
+
+    color: white;
+
+    border: 0;
+
+    border-radius: 6px;
+
+    padding: 12px 18px;
+
+}
+
+.newsletter img {
+
+    width: 210px;
+
+    height: 180px;
+
+    object-fit: contain;
+
+    margin-top: -100px;
+
+}
+
+.footer-grid {
+
+    display: grid;
+
+    grid-template-columns: 2fr repeat(4, 1fr);
+
+    gap: 35px;
+
+}
+
+.footer-grid h2 {
+
+    color: #3b5d50;
+
+    font-size: 25px;
+
+}
+
+.footer-grid h4 {
+
+    font-size: 13px;
+
+}
+
+.footer-grid p {
+
+    font-size: 12px;
+
+    color: #333;
+
+    line-height: 2.2;
+
+}
+
+.copyright {
+
+    border-top: 1px solid #dce0de;
+
+    margin-top: 35px;
+
+    padding-top: 20px;
+
+    font-size: 11px;
+
+    color: #77807c;
+
+}
+
+/* RESPONSIVIDADE - TELAS ATÉ 576PX */
+
+@media (max-width: 576px) {
+
+    .wrap {
+
+        width: 90%;
+
+    }
+
+    .nav {
+
+        height: 65px;
+
+    }
+
+    .nav ul,
+
+    .icons {
+
+        display: none;
+
+    }
+
+    .menu {
+
+        display: block;
+
+        background: none;
+
+        color: white;
+
+        border: 0;
+
+        font-size: 24px;
+
+    }
+
+    .hero-content {
+
+        display: block;
+
+        padding: 35px 0 25px;
+
+    }
+
+    .hero h1 {
+
+        font-size: 34px;
+
+    }
+
+    .hero-content img {
+
+        width: 100%;
+
+        height: 220px;
+
+        margin-top: 20px;
+
+    }
+
+    .products {
+
+        grid-template-columns: 1fr;
+
+        padding: 55px 0;
+
+        gap: 25px;
+
+    }
+
+    .intro {
+
+        text-align: center;
+
+    }
+
+    .intro p {
+
+        margin: 0 auto 10px;
+
+    }
+
+    .products article img {
+
+        height: 190px;
+
+    }
+
+    .why {
+
+        grid-template-columns: 1fr;
+
+        padding: 35px 0;
+
+        gap: 30px;
+
+    }
+
+    .features {
+
+        gap: 18px;
+
+    }
+
+    .why-image {
+
+        height: 300px;
+
+    }
+
+    .design {
+
+        grid-template-columns: 1fr;
+
+        padding: 55px 0;
+
+        gap: 35px;
+
+    }
+
+    .collage img {
+
+        height: 150px;
+
+    }
+
+    .collage .large {
+
+        height: 315px;
+
+    }
+
+    .design ul {
+
+        gap: 12px;
+
+    }
+
+    .mini-products {
+
+        grid-template-columns: 1fr;
+
+        padding: 20px 0 50px;
+
+        gap: 20px;
+
+    }
+
+    .testimonial {
+
+        padding: 35px 5%;
+
+    }
+
+    .blog {
+
+        padding: 45px 0 70px;
+
+    }
+
+    .posts {
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+    }
+
+    .posts img {
+
+        height: 220px;
+
+    }
+
+    .newsletter {
+
+        display: block;
+
+    }
+
+    .newsletter input {
+
+        width: calc(50% - 8px);
+
+        margin: 5px 0;
+
+    }
+
+    .newsletter button {
+
+        margin-top: 5px;
+
+    }
+
+    .newsletter img {
+
+        display: block;
+
+        width: 150px;
+
+        height: 130px;
+
+        margin: 10px auto;
+
+    }
+
+    .footer-grid {
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 20px;
+
+    }
+
+    .footer-grid > div:first-child {
+
+        grid-column: span 2;
+
+    }
+
+}
